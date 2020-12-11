@@ -1,0 +1,10 @@
+<div class="chat-messages">
+  <h2>Stream Messaging</h2>
+  <div class="chat-messages-show-container">
+    <app-message #one [message]="messageSend" (messageEvent)="receiveMessage($event)"></app-message>
+  </div>
+  <div class="chat-messages-create-container">
+    <input class="chat-messages-create-input" placeholder="Type a message..." type="text" [(ngModel)]="messageSend">
+    <button class="chat-messages-create-button" type="submit" (click)="one.onSendMessage()"> Send </button>
+  </div>
+</div>

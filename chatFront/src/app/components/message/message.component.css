@@ -1,0 +1,23 @@
+.chat-messages-show-container{
+   background: #c3c3c3;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   overflow: auto;
+}
+.chat-messages-show-list {
+   list-style-type:none;
+   margin: 0;
+   padding: 0;
+}
+.message_left {
+   background: rgb(231, 229, 229);
+   padding: 15px 30px;
+   margin: 10px;
+} 
+.message_right {
+  background: rgb(152, 152, 156);
+  padding: 15px 30px;
+  margin: 10px;
+  text-align: right;
+} 

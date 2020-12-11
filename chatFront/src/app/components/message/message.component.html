@@ -1,0 +1,8 @@
+<div class="chat-messages">
+    <div class="chat-messages-show-container">
+        <ul class="chat-messages-show-list" id="message-list">
+            <li id="message_left" [ngClass]="{'message_left': rMessage.id, 'message_right': !rMessage.id}"
+                *ngFor="let rMessage of recieveMessages;">{{rMessage.text}}</li>
+        </ul>
+    </div>
+</div>
