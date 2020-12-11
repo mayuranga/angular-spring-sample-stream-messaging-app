@@ -1,4 +1,4 @@
-package com.loollablk.messageservice.dao;
+package com.loollablk.messageservice.controller;
 
 import com.loollablk.messageservice.entity.RequestData;
 import com.loollablk.messageservice.entity.ServerResponse;
